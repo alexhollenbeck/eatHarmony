@@ -16,27 +16,38 @@
 </head>
 <body ng-controller="View1Ctrl">
 
-  <input ng-model="query">
 
-  <select ng-model="orderProp">
-    <option value="name">Alphabetical</option>
-    <option value="votes">Most popular</option>
-  </select>
+  <div class="wrapper">
 
-  <ul class="restaurants">
-    <li ng-repeat="restaurant in restaurants | filter:query | orderBy:orderProp">
-      <div class="restaurant-card">
-        <p>{{restaurant.name}}</p>
-        <p>{{restaurant.style}}</p>
+    <div class="control-panel">
+      <h2 class="title">eatHarmony</h2>
+      <div class="search">
+        Search
+        <input ng-model="query">
       </div>
-    </li>
-  </ul>
+
+      <select ng-model="orderProp">
+        <option value="name">Alphabetical</option>
+        <option value="votes">Most popular</option>
+      </select>
+    </div>
+
+    <div class="content">
+      <ul class="restaurants">
+        <li ng-repeat="restaurant in restaurants | filter:query | orderBy:orderProp">
+          <div class="restaurant-card">
+            <p>{{restaurant.name}}</p>
+            <p>{{restaurant.style}}</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
 
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
-
-  <div ng-view></div>
 
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>

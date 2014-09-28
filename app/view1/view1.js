@@ -9,39 +9,10 @@ angular.module('myApp.view1', ['ngRoute'])
   });
 }])
 
-.controller('View1Ctrl', function($scope) {
-	$scope.restaurants = [
-	    {'name': 'Rollin To Go',
-	     'style': 'Sandwiches',
-	 	 'votes': -4},
-	    {'name': 'Tomate',
-	     'style': 'Mexican',
-	 	 'votes': -3},
-	    {'name': 'DnDs',
-	     'style': 'Burgers',
-	 	 'votes': -1},
-	    {'name': 'Joy Yees',
-	     'style': 'Asian',
-	 	 'votes': -2},
-	    {'name': 'BAT 17',
-	     'style': 'Sandwiches',
-	 	 'votes': -4},
-	    {'name': 'Edzos',
-	     'style': 'Burgers',
-	 	 'votes': -3},
-	    {'name': 'Cozy',
-	     'style': 'Asian',
-		 'votes': -2},
-	    {'name': 'Portillos',
-	     'style': 'Burgers',
-	 	 'votes': -0},
-	    {'name': 'Mandarin House',
-	     'style': 'Chinese',
-	 	 'votes': -1},
-	    {'name': 'Lisas',
-	     'style': 'Sandwiches',
-		 'votes': -0},
-	  ];
+.controller('View1Ctrl', function($scope, $http) {
+	$http.get('restaurants/restaurants.json').success(function(data) {
+    $scope.restaurants = data;
+  });
 	
 
 	$scope.orderProp = 'votes';

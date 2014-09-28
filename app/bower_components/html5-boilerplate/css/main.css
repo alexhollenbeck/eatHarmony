@@ -97,6 +97,25 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.control-panel {
+    padding-left: 20px;
+    width: 240px;
+    position: fixed;
+}
+.content {
+    margin-left: 270px;
+    position: relative;
+}
+
 .restaurants {
     list-style: none;
 }
