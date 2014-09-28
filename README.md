@@ -1,5 +1,6 @@
 # angular-seed — the seed for AngularJS apps
 
+<<<<<<< HEAD
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
 You can use it to quickly bootstrap your angular webapp projects and dev environment for these
 projects.
@@ -287,3 +288,8 @@ For more information on AngularJS please check out http://angularjs.org/
 [karma]: http://karma-runner.github.io
 [travis]: https://travis-ci.org/
 [http-server]: https://github.com/nodeapps/http-server
+=======
+Discover the food around you with the people who matter most.
+
+Alex Hollenbeck and Jon Rovira
+>>>>>>> 255c0653d2cb6c2cf7e7992b2539bf9c7c096bc3
