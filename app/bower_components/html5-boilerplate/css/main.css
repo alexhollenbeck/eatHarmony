@@ -97,9 +97,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-* {
+body {
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 200;
+    background-color: #eee;
 }
 .wrapper {
     position: relative;
@@ -109,12 +110,22 @@ textarea {
     width: 240px;
     position: fixed;
 }
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}
 .search {
+    margin-bottom: 20px;
+}
+.search input {
+    width: 234px;
+}
+.sort {
     margin-bottom: 20px;
 }
 .sort select {
     display: block;
-    margin-bottom: 20px;
+    width: 240px;
 }
 .content {
     margin-left: 270px;
@@ -136,9 +147,14 @@ textarea {
     margin: 5px;
     padding: 10px 10px 10px 10px;
 }
+span.restaurant-name, span.restaurant-style {
+    display: block;
+}
 
 .button {
-   border-top: 1px solid #1da171;
+    margin-top: 20px;
+    width: 240px;
+   border: 0px;
    background: #93f9b9;
    background: -webkit-gradient(linear, left top, left bottom, from(#1d976c), to(#93f9b9));
    background: -webkit-linear-gradient(top, #1d976c, #93f9b9);
@@ -149,12 +165,10 @@ textarea {
    -webkit-border-radius: 8px;
    -moz-border-radius: 8px;
    border-radius: 8px;
-   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: none;
    text-shadow: rgba(0,0,0,.4) 0 1px 0;
    color: #ffffff;
-   font-size: 14px;
+   font-size: 18px;
    font-family: Helvetica, Arial, sans-serif;
    text-decoration: none;
    vertical-align: middle;

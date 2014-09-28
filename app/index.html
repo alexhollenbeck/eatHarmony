@@ -48,8 +48,11 @@
       <ul class="restaurants">
         <li ng-repeat="restaurant in restaurants | filter:query | orderBy:orderProp">
           <div class="restaurant-card">
-            <p>{{restaurant.name}}</p>
-            <p>{{restaurant.style}}</p>
+            <div class="photo"></div>
+            <div class="info">
+              <span class="restaurant-name">{{restaurant.name}}</span>
+              <span class="restaurant-style">{{restaurant.style}}</span>
+            </div>
           </div>
         </li>
       </ul>
