@@ -20,16 +20,28 @@
   <div class="wrapper">
 
     <div class="control-panel">
+
       <h2 class="title">eatHarmony</h2>
+
+      <p class="instructions">
+        Click on the restaurants you feel like eating at.
+      </p>
+
       <div class="search">
         Search
         <input ng-model="query">
       </div>
 
-      <select ng-model="orderProp">
-        <option value="name">Alphabetical</option>
-        <option value="votes">Most popular</option>
-      </select>
+      <div class="sort">
+        Sort by...
+        <select ng-model="orderProp">
+          <option value="name">Alphabetical</option>
+          <option value="votes">Most popular</option>
+        </select>
+      </div>
+
+      <button class="button">Where should we eat?</button>
+
     </div>
 
     <div class="content">
