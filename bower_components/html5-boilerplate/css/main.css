@@ -97,21 +97,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.restaurants {
-    list-style: none;
-}
-.restaurants li {
-    display: inline-block;
-}
-.restaurants li .restaurant-card {
-    width: 150px;
-    height: 100px;
-    text-align: center;
-    background-color: #1D976C;
-    color: white;
-    margin: 5px;
-    padding: 10px 10px 10px 10px;
-}
+
 
 
 
