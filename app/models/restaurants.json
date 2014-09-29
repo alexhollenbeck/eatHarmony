@@ -1,39 +1,39 @@
 [
     {
              "name": "Rollin' To Go",
-             "style": "Sandwiches",
+             "style": "Sandwiches"
     },
     {
              "name": "Tomate",
-             "style": "Mexican",
+             "style": "Mexican"
     },
     {
              "name": "D&Ds",
-             "style": "Burgers",
+             "style": "Burgers"
     },
     {
              "name": "Joy Yees",
-             "style": "Asian",
+             "style": "Asian"
     },
     {
              "name": "Bat 17",
-             "style": "Sandwiches",
+             "style": "Sandwiches"
     },
     {
              "name": "Edzo's",
-             "style": "Burgers",
+             "style": "Burgers"
     },
     {        "name": "Cozy",
-             "style": "Asian",
+             "style": "Asian"
     },
     {        "name": "Portillo's",
-             "style": "Burgers",
+             "style": "Burgers"
     },
     {
              "name": "Mandarin House",
-             "style": "Asian",
+             "style": "Asian"
     },
     {        "name": "Lisa's",
-             "style": "Sandwiches",
+             "style": "Sandwiches"
     }
 ]
