@@ -6,7 +6,7 @@ var likeList = [];
 $(window).load(function() {
 
 	// Get all restaurants and initialize like count to 0
-	$.getJSON('restaurants/restaurants.json', function( data ) {
+	$.getJSON('models/restaurants.json', function( data ) {
 		$.each(data, function() {
 		    likeList[($(this)[0].name)] = 0;
 		 });
