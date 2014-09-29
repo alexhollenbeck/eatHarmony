@@ -1,6 +1,6 @@
 [
     {
-             "name": "Rollin To Go",
+             "name": "Rollin' To Go",
              "style": "Sandwiches",
     },
     {
@@ -8,7 +8,7 @@
              "style": "Mexican",
     },
     {
-             "name": "DnDs",
+             "name": "D&Ds",
              "style": "Burgers",
     },
     {
@@ -16,24 +16,24 @@
              "style": "Asian",
     },
     {
-             "name": "BAT 17",
+             "name": "Bat 17",
              "style": "Sandwiches",
     },
     {
-             "name": "Edzos",
+             "name": "Edzo's",
              "style": "Burgers",
     },
     {        "name": "Cozy",
              "style": "Asian",
     },
-    {        "name": "Portillos",
+    {        "name": "Portillo's",
              "style": "Burgers",
     },
     {
              "name": "Mandarin House",
              "style": "Asian",
     },
-    {        "name": "Lisas",
+    {        "name": "Lisa's",
              "style": "Sandwiches",
     }
 ]
