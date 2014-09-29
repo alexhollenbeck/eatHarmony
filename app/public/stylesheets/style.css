@@ -147,6 +147,27 @@ h2 {
     margin: 5px;
     padding: 10px 10px 10px 10px;
 }
+.restaurants li .restaurant-card.zero {
+    background-color: #93F9B9;
+}
+.restaurants li .restaurant-card.one {
+    background-color: #7FE8AC;
+}
+.restaurants li .restaurant-card.two {
+    background-color: #6BD89F;
+}
+.restaurants li .restaurant-card.three {
+    background-color: #58C892;
+}
+.restaurants li .restaurant-card.four {
+    background-color: #44B785;
+}
+.restaurants li .restaurant-card.five {
+    background-color: #30A778;
+}
+.restaurants li .restaurant-card.six {
+    background-color: #1D976C;
+}
 span.restaurant-name, span.restaurant-style {
     display: block;
 }
