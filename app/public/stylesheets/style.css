@@ -146,24 +146,25 @@ h2 {
     color: white;
     margin: 5px;
     padding: 10px 10px 10px 10px;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
 }
 .restaurants li .restaurant-card.zero {
-    background-color: #93F9B9;
+    background-color: #BAF2CF;
 }
 .restaurants li .restaurant-card.one {
-    background-color: #7FE8AC;
+    background-color: #9FE2BE;
 }
 .restaurants li .restaurant-card.two {
-    background-color: #6BD89F;
+    background-color: #85D3AE;
 }
 .restaurants li .restaurant-card.three {
-    background-color: #58C892;
+    background-color: #6BC49D;
 }
 .restaurants li .restaurant-card.four {
-    background-color: #44B785;
+    background-color: #51B58D;
 }
 .restaurants li .restaurant-card.five {
-    background-color: #30A778;
+    background-color: #37A67C;
 }
 .restaurants li .restaurant-card.six {
     background-color: #1D976C;

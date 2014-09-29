@@ -89,6 +89,36 @@ $(window).load(function() {
 	}
 	});
 
+	$('.search').delegate('input', 'keyup', function() {
+		var rCard;
+		for (var key in votes) {
+
+		$rCard = $(".restaurant-card:contains('" + key + "')");
+		$rCard.removeClass('zero one two three four five six');
+		if (votes[key] == 0) {
+			$rCard.addClass('zero');
+		}
+		else if (votes[key] == 1) {
+			$rCard.addClass('one');
+		}
+		else if (votes[key] == 2) {
+			$rCard.addClass('two');
+		}
+		else if (votes[key] == 3) {
+			$rCard.addClass('three');
+		}
+		else if (votes[key] == 4) {
+			$rCard.addClass('four');
+		}
+		else if (votes[key] == 5) {
+			$rCard.addClass('five');
+		}
+		else if (votes[key] == 6) {
+			$rCard.addClass('six');
+		}
+	}
+	})
+
 	// Get results
 	$('button.submit').click(function() {
 
