@@ -1,39 +1,174 @@
 [
     {
-             "name": "Rollin To Go",
-             "style": "Sandwiches",
+             "name": "Rollin' To Go",
+             "style": "Sandwiches"
     },
     {
              "name": "Tomate",
-             "style": "Mexican",
+             "style": "Mexican"
     },
     {
-             "name": "DnDs",
-             "style": "Burgers",
+             "name": "D&Ds",
+             "style": "Burgers"
     },
     {
              "name": "Joy Yees",
-             "style": "Asian",
+             "style": "Asian"
     },
     {
-             "name": "BAT 17",
-             "style": "Sandwiches",
+             "name": "Bat 17",
+             "style": "Sandwiches"
     },
     {
-             "name": "Edzos",
-             "style": "Burgers",
+             "name": "Edzo's",
+             "style": "Burgers"
     },
-    {        "name": "Cozy",
-             "style": "Asian",
+    {        
+            "name": "Cozy",
+            "style": "Asian"
     },
-    {        "name": "Portillos",
-             "style": "Burgers",
+    {       
+            "name": "Portillo's",
+            "style": "Burgers"
     },
     {
              "name": "Mandarin House",
-             "style": "Asian",
+             "style": "Asian"
     },
-    {        "name": "Lisas",
-             "style": "Sandwiches",
+    {        
+            "name": "Lisa's",
+            "style": "Sandwiches"
+    },
+    {       
+            "name": "Sarpino's",
+            "style": "Italian"
+    },
+    {       
+            "name": "Burger King",
+            "style": "Fast Food"
+    },
+    {       
+            "name": "Lao Sze Chuan",
+            "style": "Asian"
+    },
+    {       
+            "name": "Walker Bros.",
+            "style": "Breakfast"
+    },
+    {       
+            "name": "Delby's Corner",
+            "style": "Breakfast"
+    },
+    {       
+            "name": "Clark's",
+            "style": "American"
+    },
+    {       
+            "name": "Philly's Best",
+            "style": "American"
+    },
+    {       
+            "name": "Le Peep",
+            "style": "Breakfast"
+    },
+    {       
+            "name": "Noodles & Co",
+            "style": "World"
+    },
+    {       
+            "name": "Flat Top Grill",
+            "style": "Asian"
+    },
+    {       
+            "name": "Hecky's Barbecue",
+            "style": "American"
+    },
+    {       
+            "name": "Siam Splendour",
+            "style": "Asian"
+    },
+    {       
+            "name": "Jimmy John's",
+            "style": "Sandwiches"
+    },
+    {       
+            "name": "Chili's",
+            "style": "American"
+    },
+    {          
+            "name": "Potbelly",
+            "style": "Sandwiches"
+    },
+    {       
+            "name": "Symphony's Cafe",
+            "style": "Breakfast"
+    },
+    {       
+            "name": "DMK",
+            "style": "Burgers"
+    },
+    {       
+            "name": "Farmhouse",
+            "style": "American"
+    },
+    {       
+            "name": "Naf Naf",
+            "style": "Mediterranean"
+    },
+    {       
+            "name": "Soulwich",
+            "style": "Sandwiches"
+    },
+    {       
+            "name": "JT's Grill",
+            "style": "American"
+    },
+    {       
+            "name": "Aguas Tortas",
+            "style": "Mexican"
+    },
+    {       
+            "name": "Taco Bell",
+            "style": "Mexican"
+    },
+    {       
+            "name": "Al's Deli",
+            "style": "Sandwiches"
+    },
+    {       
+            "name": "Noyes Street Cafe",
+            "style": "American"
+    },
+    {       
+            "name": "LYFE Kitchen",
+            "style": "Vegan"
+    },
+    {       
+            "name": "Mt. Everest",
+            "style": "Indian"
+    },
+    {       
+            "name": "Pret A Manger",
+            "style": "Sandwiches"
+    },
+    {       
+            "name": "Cheesie's",
+            "style": "Sandwiches"
+    },
+    {       
+            "name": "Chicken Shack",
+            "style": "American"
+    },
+    {       
+            "name": "Greek Fire Grill",
+            "style": "Mediterranean"
+    },
+    {       
+            "name": "527 Cafe",
+            "style": "Asian"
+    },
+    {       
+            "name": "Todoroki",
+            "style": "Asian"
     }
 ]
